@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+:root{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+}
+
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-size: 62.5%;
+}
+
+
+body{
+    background-color: var(--Off-Black);
+    font-family: Inter;
+    height: 100vh;
+
+    font-size: 1.6rem;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+.container-profile{
+    background-color: var(--Dark-Grey);
+    padding: 2rem;
+
+    width: 30rem;
+
+    border-radius: 10px;
+}
+
+.profile__id{
+    margin: 2rem 0;
+}
+
+.id-name, .id-city, .profile__desc{
+    display: block;
+    text-align: center;
+}
+
+.id-name{
+    color: var(--White);
+    font-size: 2rem;
+}
+
+.id-city{
+    color:var(--Green);
+    font-size: 1.3rem;
+    font-weight: 700;
+
+    margin-top: 0.7rem;
+}
+
+.profile__desc{
+    color: var(--White);
+    font-size: 1.4rem;
+    font-weight: 300;
+
+    margin: 3rem 0;
+}
+
+.profile__img{
+    width: 7.5rem;
+    border-radius: 100%;
+
+}
+
+.link{
+    display: block;
+    text-decoration: none;
+    color: var(--White);
+    background-color: var(--Grey);
+
+    margin-top: 1.5rem;
+    padding: 1.3rem;
+    font-weight: 500;
+    border-radius: 7px;
+    font-size: 1.3rem;
+}
+
+.link:hover{
+    background-color: var(--Green);
+    color: var(--Off-Black)
+}
+
+.attribution{
+    color: var(--Grey);
+    font-size: 1.3rem;
+
+}
+
+.attribution a{
+    color: var(--Grey);
+    text-decoration: none;
+}
+
